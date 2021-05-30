@@ -19,6 +19,7 @@ addbutton.addEventListener("click", function buttonFunction() {
 const deleteButton = document.querySelector(".delete-2")
 const deletedInput = document.querySelector(".scratch")
 const listItem = document.getElementById("listItem")
+const deletAll = document.querySelector(".delete-1")
 
 deleteButton.addEventListener("click", function deletedItem() {
   deletedInput.appendChild(listItem);
